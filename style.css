@@ -1,0 +1,34 @@
+.buttons .js-play-button {
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+}
+
+.buttons .js-pause-button {
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+}
+
+.buttons .js-volume-button {
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+}
+
+.buttons .js-mute-button {
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+}
+
+.buttons .js-fullscreen-button {
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+}
