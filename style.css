@@ -1,34 +1,12 @@
-.buttons .js-play-button {
+.buttons .button {
     border-style: none;
     cursor: pointer;
     color: white;
     background-color: transparent;
 }
 
-.buttons .js-pause-button {
-    border-style: none;
-    cursor: pointer;
-    color: white;
-    background-color: transparent;
-}
-
-.buttons .js-volume-button {
-    border-style: none;
-    cursor: pointer;
-    color: white;
-    background-color: transparent;
-}
-
-.buttons .js-mute-button {
-    border-style: none;
-    cursor: pointer;
-    color: white;
-    background-color: transparent;
-}
-
-.buttons .js-fullscreen-button {
-    border-style: none;
-    cursor: pointer;
-    color: white;
-    background-color: transparent;
+.player-container {
+    width: 800px;
+    height: 600px;
+    box-shadow: 0 0 30px rgba(0,0,0,2);
 }
