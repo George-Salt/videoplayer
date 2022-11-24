@@ -3,6 +3,7 @@
     cursor: pointer;
     color: white;
     background-color: transparent;
+    font-size: larger;
 }
 
 .player-container {
