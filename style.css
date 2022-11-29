@@ -11,6 +11,10 @@
   width: 10px;
 }
 
+.js-fullscreen-button {
+  float: right;
+}
+
 .player-container {
   width: 800px;
   height: 600px;
