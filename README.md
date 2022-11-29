@@ -2,7 +2,7 @@
 
 Шаблон сайта с видеопроигрывателем и готовыми рабочими кнопками.
 
-![Видеоплеер]("img/worked.png")
+![Видеоплеер]("https://github.com/George-Salt/videoplayer/raw/main/img/worked.png")
 
 ## Установка
 
