@@ -2,8 +2,6 @@
 
 Шаблон сайта с видеопроигрывателем и готовыми рабочими кнопками.
 
-![Видеоплеер]("https://github.com/George-Salt/videoplayer/raw/main/img/worked.png")
-
 ## Установка
 
 Скачайте форк [репозитория]("https://github.com/George-Salt/videoplayer") с проектом.
