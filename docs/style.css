@@ -1,12 +1,17 @@
-.buttons .button {
+.buttons-container .button {
   border-style: none;
   cursor: pointer;
   background-color: transparent;
+  color: white;
   font-size: larger;
 }
 
 i {
   color: white;
+}
+
+.buttons-container {
+  background-color: black;
 }
 
 .fa {
