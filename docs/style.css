@@ -1,9 +1,12 @@
 .buttons .button {
   border-style: none;
   cursor: pointer;
-  color: white;
   background-color: transparent;
   font-size: larger;
+}
+
+i {
+  color: white;
 }
 
 .fa {
