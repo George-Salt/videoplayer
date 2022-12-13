@@ -3,30 +3,33 @@
 <head>
   <title>Видеоплеер</title>
   <meta charset="utf-8">
-  <link rel="icon" type="image/png" href="../img/favicon.png">
-  <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div id="player" class="player-container">
   <div class="js-video-container video-container" ></div>
   <div class="buttons-container">
-    <button class="js-play-button button">
-      <i class="fa fa-play fa-2x" aria-hidden="true"></i>
-    </button>
-    <button class="js-pause-button button" hidden>
-      <i class="fa fa-pause fa-2x" aria-hidden="true"></i>
-    </button>
-    <button class="js-volume-button button" >
-      <i class="fa fa-volume-off fa-2x" aria-hidden="true"></i>
-    </button>
-    <button class="js-mute-button button" >
-      <i class="fa fa-volume-up fa-2x" aria-hidden="true" hidden></i>
-    </button>
-
-    <button id="expand" class="js-fullscreen-button button" >
-      <i class="fa fa-expand fa-2x" aria-hidden="true"></i>
-    </button>
+    <div class="left-buttons">
+      <button class="js-play-button button">
+        <i class="fa fa-play fa-2x" aria-hidden="true"></i>
+      </button>
+      <button class="js-pause-button button" hidden>
+        <i class="fa fa-pause fa-2x" aria-hidden="true"></i>
+      </button>
+      <button class="js-volume-button button" >
+        <i class="fa fa-volume-off fa-2x" aria-hidden="true"></i>
+      </button>
+      <button class="js-mute-button button" >
+        <i class="fa fa-volume-up fa-2x" aria-hidden="true" hidden></i>
+      </button>
+    </div>
+    <div class="right-buttons">
+      <button id="expand" class="js-fullscreen-button button" >
+        <i class="fa fa-expand fa-2x" aria-hidden="true"></i>
+      </button>
+    </div>
   </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

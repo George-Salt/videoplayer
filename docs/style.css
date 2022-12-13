@@ -4,12 +4,7 @@
   color: white;
   background-color: transparent;
   width: 50px;
-  float: left;
   margin-bottom: 10px;
-}
-
-.button#expand{
-  float: right;
 }
 
 .player-container{
@@ -26,4 +21,6 @@
 
 .buttons-container{
   background-color: black;
+  display: flex;
+  justify-content: space-between;
 }
