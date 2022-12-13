@@ -1,13 +1,13 @@
-.button{
+.buttons-container .button {
   border-style: none;
   cursor: pointer;
   color: white;
   background-color: transparent;
+  height: 45px;
   width: 50px;
-  margin-bottom: 10px;
 }
 
-.player-container{
+.player-container {
   box-shadow: 0 0 20px rgba(0,0,0,2);
   width: 800px;
   height: 600px;
@@ -15,12 +15,17 @@
   flex-direction: column;
 }
 
-.video-container{
+.player-container .video-container {
   flex-grow: 1;
 }
 
-.buttons-container{
-  background-color: black;
+.player-container .buttons-container {
+  background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: space-between;
+}
+
+.buttons-container .left-buttons {
+  display: flex;
+  align-items: center;
 }

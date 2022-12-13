@@ -8,38 +8,37 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="player" class="player-container">
-  <div class="js-video-container video-container" ></div>
-  <div class="buttons-container">
-    <div class="left-buttons">
-      <button class="js-play-button button">
-        <i class="fa fa-play fa-2x" aria-hidden="true"></i>
-      </button>
-      <button class="js-pause-button button" hidden>
-        <i class="fa fa-pause fa-2x" aria-hidden="true"></i>
-      </button>
-      <button class="js-volume-button button" >
-        <i class="fa fa-volume-off fa-2x" aria-hidden="true"></i>
-      </button>
-      <button class="js-mute-button button" >
-        <i class="fa fa-volume-up fa-2x" aria-hidden="true" hidden></i>
-      </button>
-    </div>
-    <div class="right-buttons">
-      <button id="expand" class="js-fullscreen-button button" >
-        <i class="fa fa-expand fa-2x" aria-hidden="true"></i>
-      </button>
+  <div id="player" class="player-container">
+    <div class="js-video-container video-container" ></div>
+    <div class="buttons-container">
+      <div class="left-buttons">
+        <button class="js-play-button button">
+          <i class="fa fa-play fa-2x" aria-hidden="true"></i>
+        </button>
+        <button class="js-pause-button button" hidden>
+          <i class="fa fa-pause fa-2x" aria-hidden="true"></i>
+        </button>
+        <button class="js-volume-button button" >
+          <i class="fa fa-volume-off fa-2x" aria-hidden="true"></i>
+        </button>
+        <button class="js-mute-button button" >
+          <i class="fa fa-volume-up fa-2x" aria-hidden="true" hidden></i>
+        </button>
+      </div>
+      <div class="right-buttons">
+        <button id="expand" class="js-fullscreen-button button" >
+          <i class="fa fa-expand fa-2x" aria-hidden="true"></i>
+        </button>
+      </div>
     </div>
   </div>
-</div>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
-<script src="player.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
+  <script src="player.js"></script>
 
 
-<script type="text/javascript">
-  createPlayer({elementId: "player"});
-</script>
-
+  <script type="text/javascript">
+    createPlayer({elementId: "player"});
+  </script>
 </body>
 </html>
