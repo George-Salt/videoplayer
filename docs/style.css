@@ -58,6 +58,22 @@
 }
 
 .circle-slider {
+  transition: all 300ms ease;
+  opacity: 0;
+  height: 8px;
+  width: 8px;
+  background-color: red;
+  border-color: white;
+  border: 3px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: -5px;
+}
+
+.controls-container:hover
+.circle-slider {
+  transition: all 300ms ease;
+  opacity: 1;
   height: 8px;
   width: 8px;
   background-color: red;
