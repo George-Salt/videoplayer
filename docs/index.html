@@ -10,7 +10,7 @@
 <body>
   <div id="player" class="player-container">
     <div class="js-video-container video-container"></div>
-    <div class="buttons-container">
+    <div class="controls-container">
       <button class="js-play-button player-button">
         <i class="fa fa-play" aria-hidden="true"></i>
       </button>
@@ -23,7 +23,11 @@
       <button class="js-mute-button player-button">
         <i class="fa fa-volume-up" aria-hidden="true" hidden></i>
       </button>
-      <div class="progress-bar-wrapper"></div>
+      <div class="progress-bar-wrapper">
+        <span class="js-current-time"></span>
+        <div class="player-progress-bar"></div>
+        <span class="js-duration"></span>
+      </div>
       <button class="js-fullscreen-button player-button">
         <i class="fa fa-expand" aria-hidden="true"></i>
       </button>
